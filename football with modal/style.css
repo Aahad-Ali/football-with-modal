@@ -1,0 +1,42 @@
+#modal{
+    width: calc(100vw);
+    height: calc(100vh);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.229);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+#popup{
+    height: auto;
+    width:  auto;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 20px;
+}
+#contanier{
+     display: flex; 
+    justify-content: space-evenly;
+} 
+#name-box{
+   
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+}
+button{
+    font-size: 20px;
+    ;
+}
+button:hover{
+    color: red;
+    
+}
+span{
+    flex-direction: column;
+}
+#databox{
+    text-align: center;
+}
